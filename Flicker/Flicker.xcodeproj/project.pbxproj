@@ -14,6 +14,23 @@
 		B551492221A1E29600052788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B551492021A1E29600052788 /* LaunchScreen.storyboard */; };
 		B551492D21A1E29600052788 /* FlickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551492C21A1E29600052788 /* FlickerTests.swift */; };
 		B551493821A1E29600052788 /* FlickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551493721A1E29600052788 /* FlickerUITests.swift */; };
+		B551494721A1E39B00052788 /* NetworkContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551494621A1E39B00052788 /* NetworkContract.swift */; };
+		B551494921A1E3C600052788 /* NetworkRequestDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551494821A1E3C600052788 /* NetworkRequestDetails.swift */; };
+		B551494B21A1E3ED00052788 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551494A21A1E3ED00052788 /* NetworkService.swift */; };
+		B551494E21A1E65400052788 /* PictureInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551494D21A1E65400052788 /* PictureInfo.swift */; };
+		B551495021A1EAD700052788 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551494F21A1EAD700052788 /* ViewModel.swift */; };
+		B551495221A1EB0700052788 /* PictureInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551495121A1EB0700052788 /* PictureInfoViewModel.swift */; };
+		B551495421A1EC7D00052788 /* PictureDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551495321A1EC7D00052788 /* PictureDetails.swift */; };
+		B551495721A1FDD200052788 /* FlickerServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551495621A1FDD200052788 /* FlickerServiceCall.swift */; };
+		B551495F21A2168B00052788 /* FlickerContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551495E21A2168B00052788 /* FlickerContract.swift */; };
+		B551496121A216BA00052788 /* FlickerSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551496021A216BA00052788 /* FlickerSearchViewController.swift */; };
+		B551496321A216CF00052788 /* FlickerSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B551496221A216CF00052788 /* FlickerSearch.storyboard */; };
+		B551496521A216DF00052788 /* FlickerSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551496421A216DF00052788 /* FlickerSearchPresenter.swift */; };
+		B551496721A216F200052788 /* FlickerSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551496621A216F200052788 /* FlickerSearchRouter.swift */; };
+		B551496921A2172900052788 /* FlickerSearchServiceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551496821A2172900052788 /* FlickerSearchServiceInteractor.swift */; };
+		B551496D21A218F000052788 /* FlickerResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551496B21A218F000052788 /* FlickerResultTableViewCell.swift */; };
+		B551496E21A218F000052788 /* FlickerResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B551496C21A218F000052788 /* FlickerResultTableViewCell.xib */; };
+		B551497021A268B000052788 /* FlickerServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551496F21A268B000052788 /* FlickerServiceRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +64,23 @@
 		B551493321A1E29600052788 /* FlickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B551493721A1E29600052788 /* FlickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerUITests.swift; sourceTree = "<group>"; };
 		B551493921A1E29600052788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B551494621A1E39B00052788 /* NetworkContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkContract.swift; sourceTree = "<group>"; };
+		B551494821A1E3C600052788 /* NetworkRequestDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestDetails.swift; sourceTree = "<group>"; };
+		B551494A21A1E3ED00052788 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B551494D21A1E65400052788 /* PictureInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInfo.swift; sourceTree = "<group>"; };
+		B551494F21A1EAD700052788 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B551495121A1EB0700052788 /* PictureInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInfoViewModel.swift; sourceTree = "<group>"; };
+		B551495321A1EC7D00052788 /* PictureDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetails.swift; sourceTree = "<group>"; };
+		B551495621A1FDD200052788 /* FlickerServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerServiceCall.swift; sourceTree = "<group>"; };
+		B551495E21A2168B00052788 /* FlickerContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerContract.swift; sourceTree = "<group>"; };
+		B551496021A216BA00052788 /* FlickerSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchViewController.swift; sourceTree = "<group>"; };
+		B551496221A216CF00052788 /* FlickerSearch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FlickerSearch.storyboard; sourceTree = "<group>"; };
+		B551496421A216DF00052788 /* FlickerSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchPresenter.swift; sourceTree = "<group>"; };
+		B551496621A216F200052788 /* FlickerSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchRouter.swift; sourceTree = "<group>"; };
+		B551496821A2172900052788 /* FlickerSearchServiceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchServiceInteractor.swift; sourceTree = "<group>"; };
+		B551496B21A218F000052788 /* FlickerResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerResultTableViewCell.swift; sourceTree = "<group>"; };
+		B551496C21A218F000052788 /* FlickerResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlickerResultTableViewCell.xib; sourceTree = "<group>"; };
+		B551496F21A268B000052788 /* FlickerServiceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerServiceRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +131,14 @@
 		B551491621A1E29600052788 /* Flicker */ = {
 			isa = PBXGroup;
 			children = (
+				B551496A21A218D100052788 /* ShareUI */,
+				B551495C21A2166C00052788 /* Features */,
 				B551491721A1E29600052788 /* AppDelegate.swift */,
 				B551491921A1E29600052788 /* ViewController.swift */,
 				B551491B21A1E29600052788 /* Main.storyboard */,
+				B551494C21A1E5BA00052788 /* Models */,
+				B551494521A1E37000052788 /* Network */,
+				B551495521A1FDA400052788 /* ServiceCall */,
 				B551491E21A1E29600052788 /* Assets.xcassets */,
 				B551492021A1E29600052788 /* LaunchScreen.storyboard */,
 				B551492321A1E29600052788 /* Info.plist */,
@@ -123,6 +162,66 @@
 				B551493921A1E29600052788 /* Info.plist */,
 			);
 			path = FlickerUITests;
+			sourceTree = "<group>";
+		};
+		B551494521A1E37000052788 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B551494621A1E39B00052788 /* NetworkContract.swift */,
+				B551494821A1E3C600052788 /* NetworkRequestDetails.swift */,
+				B551494A21A1E3ED00052788 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B551494C21A1E5BA00052788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B551494D21A1E65400052788 /* PictureInfo.swift */,
+				B551494F21A1EAD700052788 /* ViewModel.swift */,
+				B551495121A1EB0700052788 /* PictureInfoViewModel.swift */,
+				B551495321A1EC7D00052788 /* PictureDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B551495521A1FDA400052788 /* ServiceCall */ = {
+			isa = PBXGroup;
+			children = (
+				B551495621A1FDD200052788 /* FlickerServiceCall.swift */,
+				B551496F21A268B000052788 /* FlickerServiceRequest.swift */,
+			);
+			path = ServiceCall;
+			sourceTree = "<group>";
+		};
+		B551495C21A2166C00052788 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B551495D21A2167800052788 /* Search */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B551495D21A2167800052788 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B551495E21A2168B00052788 /* FlickerContract.swift */,
+				B551496021A216BA00052788 /* FlickerSearchViewController.swift */,
+				B551496221A216CF00052788 /* FlickerSearch.storyboard */,
+				B551496421A216DF00052788 /* FlickerSearchPresenter.swift */,
+				B551496621A216F200052788 /* FlickerSearchRouter.swift */,
+				B551496821A2172900052788 /* FlickerSearchServiceInteractor.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B551496A21A218D100052788 /* ShareUI */ = {
+			isa = PBXGroup;
+			children = (
+				B551496B21A218F000052788 /* FlickerResultTableViewCell.swift */,
+				B551496C21A218F000052788 /* FlickerResultTableViewCell.xib */,
+			);
+			path = ShareUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +332,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B551492221A1E29600052788 /* LaunchScreen.storyboard in Resources */,
+				B551496321A216CF00052788 /* FlickerSearch.storyboard in Resources */,
+				B551496E21A218F000052788 /* FlickerResultTableViewCell.xib in Resources */,
 				B551491F21A1E29600052788 /* Assets.xcassets in Resources */,
 				B551491D21A1E29600052788 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +360,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B551495721A1FDD200052788 /* FlickerServiceCall.swift in Sources */,
+				B551495F21A2168B00052788 /* FlickerContract.swift in Sources */,
+				B551497021A268B000052788 /* FlickerServiceRequest.swift in Sources */,
+				B551496521A216DF00052788 /* FlickerSearchPresenter.swift in Sources */,
+				B551494B21A1E3ED00052788 /* NetworkService.swift in Sources */,
+				B551496121A216BA00052788 /* FlickerSearchViewController.swift in Sources */,
+				B551495221A1EB0700052788 /* PictureInfoViewModel.swift in Sources */,
+				B551496921A2172900052788 /* FlickerSearchServiceInteractor.swift in Sources */,
+				B551495421A1EC7D00052788 /* PictureDetails.swift in Sources */,
+				B551496721A216F200052788 /* FlickerSearchRouter.swift in Sources */,
+				B551494721A1E39B00052788 /* NetworkContract.swift in Sources */,
+				B551496D21A218F000052788 /* FlickerResultTableViewCell.swift in Sources */,
+				B551494E21A1E65400052788 /* PictureInfo.swift in Sources */,
 				B551491A21A1E29600052788 /* ViewController.swift in Sources */,
 				B551491821A1E29600052788 /* AppDelegate.swift in Sources */,
+				B551494921A1E3C600052788 /* NetworkRequestDetails.swift in Sources */,
+				B551495021A1EAD700052788 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
